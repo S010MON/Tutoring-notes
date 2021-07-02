@@ -5,7 +5,7 @@
 
 package toolbox;
 
-public class Ternary
+public class If_Else_Ternary
 {
 	public static void main(String[] args)
 	{
