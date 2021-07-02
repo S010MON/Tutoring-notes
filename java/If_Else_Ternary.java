@@ -3,8 +3,6 @@
  * (conditionalStatement)? operationIfTrue : operationIfFalse;
  */
 
-package toolbox;
-
 public class If_Else_Ternary
 {
 	public static void main(String[] args)
