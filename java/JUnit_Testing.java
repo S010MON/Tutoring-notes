@@ -1,8 +1,6 @@
-package toolbox;
-
 import junit.framework.*;
 
-public class Tests
+public class JUnit_Testing.java
 {
 	@BeforeClass                                    //annotation specifies that method will be invoked only once, before starting all the tests.
 	public void assertNull(Object obj)              //checks that object is null.
