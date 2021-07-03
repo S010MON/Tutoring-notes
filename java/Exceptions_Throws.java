@@ -1,4 +1,3 @@
-// File Name InsufficientFundsException.java
 import java.io.*;
 
 public class InsufficientFundsException extends Exception {
