@@ -1,4 +1,4 @@
-# Basics of R
+# Data types and strings in R
 
 ## Misc syntax notes
 
