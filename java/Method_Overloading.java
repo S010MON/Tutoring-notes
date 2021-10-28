@@ -16,13 +16,13 @@ public class Method_Overloading
 		System.out.println(add(c, d));	// Output = 3.3
 	}
 
-	public int add(int a, int b)
+	public static int add(int a, int b)
 	{
 		int out = a + b;
 		return out;
 	}
 
-	public double add(double a, double b)
+	public static double add(double a, double b)
 	{
 		double out = a + b;
 		return out;
