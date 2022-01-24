@@ -15,7 +15,7 @@ Character character = 'c';
 String s = "This is a string, a list of chars";
 ```
 
-Objects hold data, and can be acted upon using METHODS, this is done with the '.' dot operator
+Objects hold data, and can be acted upon using **methods**, this is done with the `.` dot operator
 ```java		
 s = "a word";
 s.length();		// This gets the length of the String s
