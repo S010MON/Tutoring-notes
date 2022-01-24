@@ -1,10 +1,14 @@
-These are primitive types, they are just a bucket for storing raw information
+#### Primitives
+A primitive type, is just a bucket for storing raw information in number or letter form
 ```java
-int i = 5;  		// a primitive integer (note the lowercase letter!)		
+int i = 5;  		// a primitive integer (note the lowercase letter!)
+float f = 1.2		// a primitive floating point (i.e. decimal) number
+double d = 3.14;	// a primitive double precision float
 char c = 'c';  		// a primitive character (note the use of ' ' single quotes)
 ```
 
-These are Objects (note Capital letter)
+#### Objects
+These are Objects (**note the Capital letters**)
 ```java  
 Integer integer = 10;
 Character character = 'c';	
@@ -17,6 +21,7 @@ s = "a word";
 s.length();		// This gets the length of the String s
 ```
 
+#### Arrays
 If we want to store multiple objects or primitives we can use an array
 This is essentially a block of memory where the elements are stored sequentially.
 The [] square brackets show that this is a list of integers, and not just one
