@@ -1,6 +1,7 @@
 
 #### Basic Interactive Operations
 
+```python
 	`+ - / *`  all work as expected. Division always returns a floating point number.
 
 	the `**` operator can calculate powers i.e. `5 ** 2` returns 25
@@ -8,9 +9,11 @@
 	`=` is used for assignment i.e. `five = 5`
 
 	`_` is assigned the last output from the interpreter (like ans for calculators)
+```
 
 #### Strings
 
+```python
 	Types of string available are:
 
 	` 'single quotes' `
@@ -31,10 +34,11 @@
 	>>> print(r'C:\some\name')  # note the r before the quote
 	C:\some\name
 	```
-
+```
 
 #### Concatonation
 
+```python
 	Strings can be concatanated by the '+' character
 
 	Or they can be multiplied using '*'
@@ -44,4 +48,4 @@
 	Strings put together in parentheses join them together automatically
 
 	`string = ('one string' ' two string' 'red string' 'blue string')
-	   
+```
