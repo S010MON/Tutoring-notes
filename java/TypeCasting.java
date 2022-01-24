@@ -7,9 +7,7 @@
  * Example below:
  */
 
-package toolbox;
-
-public class typeCasting{
+public class TypeCasting{
 
 	public static void Main(String[] args)
 	{
@@ -22,9 +20,9 @@ public class typeCasting{
 		float aFloat = 1.0f;
 		double aDouble = 1.0d; 
 	
-		// All of the below can happen automatically as they are scaling up.
+		// All of the below can happen automatically as they are scaling up in size, so the
+		// java compiler automatically type casts.
 		aShort = aByte;
-		aChar = aShort;
 		anInt = aChar;
 		aLong = anInt;
 		aFloat = aLong;

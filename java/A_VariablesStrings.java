@@ -1,8 +1,6 @@
 // Strings are actually objects, and so have methods that you can call.
 
-package toolbox;
-
-public class Strings{
+public class A_VariablesStrings {
 
 	public static void main(String[] args)
 	{
@@ -15,7 +13,7 @@ public class Strings{
 		System.out.println(string);			// This will print the object string. output: String
 		System.out.println("String");			// This will print the variable "String". output: String
 		System.out.println(string.toUpperCase());	// Sets the object to UPPER CASE and prints.  output: STRING
-		System.out.println(string.toLowerCase()):	// Sets the object to lower case and prints.  output: string
+		System.out.println(string.toLowerCase());	// Sets the object to lower case and prints.  output: string
 
 		// The location of specific parts of the text can be found using:
 		string = "This is an example of locating word";
@@ -27,18 +25,19 @@ public class Strings{
 		System.out.println(firstName + " " + surname);
 
 		// This can also be done using the concat() method:
-		System.out.println(firstName.concat(surname);
+		System.out.println(firstName.concat(surname));
 
-		// If you add a number and a String it will be concantenated:
+		// If you add a number and a String it will be concatenated:
 		System.out.println(firstName + f);		// Output: Leon22
 
-		// Becuase quotes are used to show where the String starts and finishes,
-		String example = "This "example" causes an error";
-		// escape charachters must be used
+		// Because quotes are used to show where the String starts and finishes,
+		/* String example = "This "example" causes an error"; */
+
+		// escape characters must be used
 		String singleQUote = "\'";
 		String doubleQuote = "\"";
 		String backSlash = "\\";
-		Example = "That\'s the way to use \"sarcasm\" in a string!";
+		String Example = "That\'s the way to use \"sarcasm\" in a string!";
 
 		// Other escape sequences valid in Java are:
 		String tab = " \t ";

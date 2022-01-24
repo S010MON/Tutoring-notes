@@ -4,35 +4,33 @@
  * If there is a match, the associated block of code is executed.
  */
 
-package toolbox;
-
-public class Switch
+public class SwitchStatement
 {
 	public static void main(String[] args)
 	{
-		int day = args[0];			// The argument is parsed from the terminal arguments.
+		String day = args[0];			// The argument is parsed from the terminal arguments.
 		switch (day) 				// The int day is compared to each case.
 		{
-		case 1:
-			System.out.println("Monday");
+		case "Monday":
+			System.out.println(1);
 			break;				// The use of 'break' stops the execution of any other code.
-		case 2:
-			System.out.println("Tuesday");
+		case "Tuesday":
+			System.out.println(2);
 			break;
-		case 3:
-			System.out.println("Wednesday");
+		case "Wednesday":
+			System.out.println(3);
 			break;
-		case 4:
-			System.out.println("Thursday");
+		case "Thursday":
+			System.out.println(4);
 			break;
-		case 5:
-			System.out.println("Friday");
+		case "Friday":
+			System.out.println(5);
 			break;
-		case 6:
-			System.out.println("Saturday");
+		case "Saturday":
+			System.out.println(6);
 			break;
-		case 7:
-			System.out.println("Sunday");
+		case "Sunday":
+			System.out.println(7);
 			break;
 		default:				// The 'default' command will execute if there are no matches.
 			System.out.println("Every day is a school day"); 
