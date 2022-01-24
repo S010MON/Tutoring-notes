@@ -1,4 +1,23 @@
-### Java Notes
+# Java Notes
+### Contents
+This repo contains all of the common concepts (and some more advanced ones) that you will see in a Computer Science 1 course.  Listed below are quick links to the files for easy lookup.
+
+a. ![Variables, Objects and Arrays](https://github.com/S010MON/Tutoring-notes/blob/main/java/A_TypesAndArrays.md)
+b. ![Strings (text)](https://github.com/S010MON/Tutoring-notes/blob/main/java/B_VariablesStrings.java)
+c. ![Changing data types](https://github.com/S010MON/Tutoring-notes/blob/main/java/C_TypeCasting.java)
+d. ![If statements (Decisions)](https://github.com/S010MON/Tutoring-notes/blob/main/java/D_IfStatement.java)
+e. ![While loops (repeating code)](https://github.com/S010MON/Tutoring-notes/blob/main/java/E_WhileLoop.java)
+f. ![For loops (more repeating code)](https://github.com/S010MON/Tutoring-notes/blob/main/java/F_ForLoop.java)
+g. ![Enhanced for loops](https://github.com/S010MON/Tutoring-notes/blob/main/java/G_ForEachLoop.java)
+h. ![Switch statements (use rather than many if/elses ...)](https://github.com/S010MON/Tutoring-notes/blob/main/java/H_SwitchStatement.java)
+i. ![Enhanced switch statements](https://github.com/S010MON/Tutoring-notes/blob/main/java/I_EnhancedSwitch.java)
+j. ![Ternary Operators (for showing off)](https://github.com/S010MON/Tutoring-notes/blob/main/java/J_IfElseTernary.java)
+k. ![Modulo operator (working out remainders)](https://github.com/S010MON/Tutoring-notes/blob/main/java/J_ModulusOperator.java)
+l. ![Introduction to methods and overloading](https://github.com/S010MON/Tutoring-notes/blob/main/java/K_MethodOverloading.java)
+m. ![Throwing exceptions](https://github.com/S010MON/Tutoring-notes/blob/main/java/L_ThrowingExceptions.java)
+n. ![Handling exceptions](https://github.com/S010MON/Tutoring-notes/blob/main/java/M_CatchingExceptions.java)
+o. ![Basics of file paths](https://github.com/S010MON/Tutoring-notes/blob/main/java/N_FilePaths.java)
+p. ![Writing unit tests](https://github.com/S010MON/Tutoring-notes/blob/main/java/O_JUnitTesting.java)
 
 
 ### Keywords Used in Java
