@@ -3,7 +3,7 @@
  * (conditionalStatement)? operationIfTrue : operationIfFalse;
  */
 
-public class J_IfElseTernary
+public class P_IfElseTernary
 {
 	public static void main(String[] args)
 	{
