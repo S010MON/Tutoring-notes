@@ -5,7 +5,7 @@ import org.junit.BeforeClass;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class JUnitTesting
+public class O_JUnitTesting
 {
 	@Test                                       // annotation specifies that method is the test method.
 	public void testOne()

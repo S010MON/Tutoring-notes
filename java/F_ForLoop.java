@@ -12,7 +12,7 @@
  */
 
 
-public class ForLoop
+public class F_ForLoop
 {
 	public static void main(String[] args)
 	{

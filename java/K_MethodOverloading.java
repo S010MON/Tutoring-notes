@@ -3,7 +3,7 @@
 	For example:
 */
 
-public class Method_Overloading
+public class K_MethodOverloading
 {
 	public static void main(String[] args)
 	{

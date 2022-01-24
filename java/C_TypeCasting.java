@@ -7,7 +7,7 @@
  * Example below:
  */
 
-public class TypeCasting{
+public class C_TypeCasting {
 
 	public static void Main(String[] args)
 	{

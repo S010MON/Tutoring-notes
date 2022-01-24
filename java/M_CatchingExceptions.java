@@ -7,10 +7,7 @@
  * The finally{ } block sweeps up anything and can either return or exit.
  * */
 
-import java.io.IOException;
-import java.util.InputMismatchException;
-
-public class CatchingExceptions{
+public class M_CatchingExceptions {
 
 	public static void main(String [] args)
 	{

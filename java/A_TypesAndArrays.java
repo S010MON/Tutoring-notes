@@ -1,4 +1,4 @@
-public class TypesAndArrays
+public class A_TypesAndArrays
 {
 	public static void main(String[] args)
 	{

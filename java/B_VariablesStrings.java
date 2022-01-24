@@ -1,6 +1,6 @@
 // Strings are actually objects, and so have methods that you can call.
 
-public class A_VariablesStrings {
+public class B_VariablesStrings {
 
 	public static void main(String[] args)
 	{

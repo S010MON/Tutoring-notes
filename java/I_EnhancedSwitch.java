@@ -1,4 +1,4 @@
-public class EnhancedSwitch
+public class I_EnhancedSwitch
 {
 	public static void main(String[] args)
 	{

@@ -1,7 +1,7 @@
 import java.nio.file.FileSystem;
 import java.nio.file.FileSystems;
 
-public class File_Paths
+public class N_FilePaths
 {
 	public static void main(String[] args)
 	{

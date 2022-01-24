@@ -1,6 +1,4 @@
-import java.io.*;
-
-public class ThrowingExceptions {
+public class L_ThrowingExceptions {
 
    public static void main(String [] args) {
       CheckingAccount c = new CheckingAccount(101);

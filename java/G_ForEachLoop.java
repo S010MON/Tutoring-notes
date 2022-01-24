@@ -5,7 +5,7 @@
  * 
  */
 
-public class ForEachLoop
+public class G_ForEachLoop
 {
 	public static void main(String[] args)
 	{

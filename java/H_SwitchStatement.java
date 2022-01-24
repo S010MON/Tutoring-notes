@@ -4,7 +4,7 @@
  * If there is a match, the associated block of code is executed.
  */
 
-public class SwitchStatement
+public class H_SwitchStatement
 {
 	public static void main(String[] args)
 	{

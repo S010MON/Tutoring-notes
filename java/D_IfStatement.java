@@ -1,4 +1,4 @@
-public class B_IfStatement
+public class D_IfStatement
 {
     public static void main(String[] args)
     {
