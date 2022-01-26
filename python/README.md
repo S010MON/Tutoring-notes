@@ -47,7 +47,7 @@ def write_letters(s: int): -> None
 ```
 example:
 ```python
->>> count_to("hello")
+>>> write_letters("hello")
 h
 e
 l
