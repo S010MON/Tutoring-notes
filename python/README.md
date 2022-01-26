@@ -47,12 +47,12 @@ def write_letters(s: int): -> None
 ```
 example:
 ```python
->>> count_to("Hello")
-H
+>>> count_to("hello")
+h
 e
 l
 l
-0
+o
 ```
 
 8) Write a function that takes in two numbers m and n (where m >= n) and returns the number of times n fits into m (completely)
