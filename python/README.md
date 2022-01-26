@@ -27,7 +27,7 @@
 *
 ```
 
-6) Write a function that takes in a number (n) and counts to the number n
+6) Write a function that takes in a number (n) and counts n
 ```python
 def count_to(n: int): -> None
 ```
@@ -41,7 +41,7 @@ example:
 5
 ```
 
-7)  Write a function that takes in a string s and prints out each letter on a new line
+7)  Write a function that takes in a string (s) and prints out each letter on a new line
 ```python
 def write_letters(s: int): -> None
 ```
