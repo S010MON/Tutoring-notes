@@ -43,7 +43,7 @@ add(a,b) === myAdderWithALongName(a,b)
 ```
 ### Timing Function
 ```matlab
-	tic	% Starts a timer
+tic	% Starts a timer
 
-	toc	% Returns the current time
+toc	% Returns the current time
 ```
