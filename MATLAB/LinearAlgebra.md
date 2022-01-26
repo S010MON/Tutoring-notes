@@ -1,76 +1,81 @@
 
 ### Creating Vectors
+```matlab
+v = [1, 2, 3];  	% Creates a vector row
 
-	v = [1, 2, 3];  	% Creates a vector row
+v = [1; 2; 3];		% Creates a vector column
 
-	v = [1; 2; 3];		% Creates a vector column
-
-	v = [1, 2, 3];
-	v = v';			% Shortcut column from row
-
+v = [1, 2, 3];
+v = v';			% Shortcut column from row
+```
 ### Creating Matrices
-
-        M = [1, 2, 3; 4, 5, 6];
-
-        -OR-
-
-        M = [[1, 2, 3];[4, 5, 6]];
-
-        -OR-
-
-        M = [X1; X2];
-
-        -OR-
-
-        M = [[1; 4],[2; 5],[3; 6]];
-
+```matlab
+M = [1, 2, 3; 4, 5, 6];
+```
+-OR-
+```matlab
+M = [[1, 2, 3];[4, 5, 6]];
+```
+-OR-
+```matlab
+M = [X1; X2];
+```
+-OR-
+```matlab
+M = [[1; 4],[2; 5],[3; 6]];
+```
 ### Indexing
-
-        To access row r in column c of array A:   A(r,c)
-
-        To access a range use the ':' operator:   A(r, c1:c4)   -OR-    A(r1:r2, c)
-
-        To access from a mid point to the end:    A(r, c:end)
-
-### Dimentions
-
-	size(A) = [m, n];				% The size() function returns the dimentions m and n as a vector
-
+To access row r in column c of array A:   
+```matlab
+A(r,c)
+```
+To access a range use the ':' operator:   
+```matlab
+A(r, c1:c4)
+```
+-OR-
+```matlab
+A(r1:r2, c)
+```
+To access from a mid point to the end:
+```matlab
+A(r, c:end)
+```
+### Dimensions
+```matlab
+Size(A) = [m, n];				% The size() function returns the dimentions m and n as a vector
+```
 ### Colon Iterator
-
-	1:10      = [1 2 3 4 5 6 7 8 9 10]		% Create an array from 1 to 10
-	
-	startValue : increment : final value		% Creates an array of values at set increments
-
-	1 : 2 : 10	= [2, 4, 6, 8, 10]
-
-
+```matlab
+1:10      = [1 2 3 4 5 6 7 8 9 10]		% Create an array from 1 to 10
+```
+startValue : increment : final value creates an array of values at set increments
+```matlab
+1:2:10	= [2, 4, 6, 8, 10]
+```
 ### Linspace
-
-	linspace(from, to, spacing)			% Creates an array of equally spaced values
-
-	linspace(1, 600, 7)	= 1	10	20	30	40	50	60
-
-
+linspace(from, to, spacing) creates an array of equally spaced values
+```matlab
+linspace(1, 600, 7)	= 1	10	20	30	40	50	60
+```
 ### Zeros
+```matlab
+zeros(m,n)	% Creates a matrix of zeros M x N
 
-	zeros(m,n)					% Creates a matrix of zeros M x N
-
-	zeros(3,5)      =      0 0 0 0 0
-                               0 0 0 0 0
-                               0 0 0 0 0
-
-### Zeros
-
-        ones(m,n)                                       % Creates a matrix of ones M x N
-
-        ones(3,5)      =       1 1 1 1 1
-                               1 1 1 1 1
-                               1 1 1 1 1
-
-
+zeros(3,5)      =      0 0 0 0 0
+                       0 0 0 0 0
+                       0 0 0 0 0
+```
+### Ones
+```matlab
+ones(m,n)       % Creates a matrix of ones M x N
+	
+ones(3,5)      =       1 1 1 1 1
+                       1 1 1 1 1
+                       1 1 1 1 1
+```
 ### Matrix Element-by-Element (EbE) Operations
-
+```matlab
 	A.*B		Where A [ 1 2; 3 4] and B = [9 8; 7 6];
 
 			Output = [0 8; 14 18]
@@ -78,18 +83,16 @@
 	A./B		Divide EbE
 	
 	A.^B		Power of EbE
-
+```
 	>		Logical checks elements size  i.e. [1 2 3 4 5] > 3;  returns [0 0 0 1 1]
 
-
 ### Matrix Operations
-
+```matlab
 	A'		Transpose
 
 			C = 1 2		C' = 1 3	
 			    3 4		     2 4
-
-
+```
 ### Linear Algebra Operations
 
 	[1,2]'	=	1
