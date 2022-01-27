@@ -6,7 +6,7 @@ square = lambda x: x * x
 i = square(3)
 print(i)
 ```
-# All of the combinations of arguments are shown below
+All of the combinations of arguments are shown below
 ```python
 print((lambda x, y, z: x + y + z)(1, 2, 3))
 print((lambda x, y, z=3: x + y + z)(1, 2))
