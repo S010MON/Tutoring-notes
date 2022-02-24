@@ -57,7 +57,7 @@ o
 
 8) Write a function using only addition and subtractrionthat takes in two numbers m and n (where m >= n) and returns the number of times n fits into m (completely).  _hint: use a while loop to achieve this!_ 
 ```python
-def whole_multiples(m, n): -> int()
+def whole_multiples(m, n) -> int:
 ```
 example:
 ```python
