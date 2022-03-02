@@ -77,3 +77,6 @@ Or for a more complex example
 >>> dist(point_1, point_2)
 11.3578
 ```
+
+
+## 4 
