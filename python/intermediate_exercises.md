@@ -78,5 +78,79 @@ Or for a more complex example
 11.3578
 ```
 
+## 4 Palindrome
+Write a function that, given a string, checks whether the string is a palindrome (same forwards as backwards) and returns `True` or `False` if it is, or isn't, respectively.
+```python
+def is_palindrome(s: str) -> bool:
+```
 
-## 4 
+Example output for the function:
+```
+>>> is_palindrome('hello world')
+False
+
+>>> is_palindrome('bob')
+True
+
+>>> is_palindrome('A man, a plan, a canal, panama')
+True
+```
+
+## 5 Roman Numerals
+Write a function that takes in a set of Roman Numerals as a string and outputs the correct Arabic number as an integer.  Use the following guide:
+
+```
+Symbol | Value
+-------|------------
+  I    |   1
+  V    |   5
+  X    |   10
+  L    |   50
+  C    |   100
+  D    |   500
+  M    |   1000
+```
+And example function definition:
+```python
+def rom_to_dec(roman) -> int:
+    # Your code here
+```
+Assume that Roman Numerals are always in decending order for addition, (so VI = 5 + 1 = 5)  and in acending order for subtraction (so IV = 5 - 1 = 4) to make the numbers not included in the numerals list.
+
+Examples:
+```
+>>> rom_to__dec('MI')
+1001
+>>> rom_to__dec('XIV')
+14
+>>> rom_to__dec('MCMXCIV')
+1994
+```
+
+
+## 6 Line Intersection
+Write a function that takes in four tuples that represent coordinates on an x-y plane `(x1,y1),(x2,y2),(x3,y3),(x4,y4)` where the first two coordinates are the line A - B  and the second two are the line C - D.  Return a boolean value of `True` if the lines AB and CD intersect, and a `False` if they don't. _Hint: https://en.wikipedia.org/wiki/Line%E2%80%93line_intersection_
+
+```python 
+def intersect(a, b, c, d) -> bool:
+   # Your code here
+```
+
+Example output for the function:
+```
+>>> a = (10, 0)
+>>> b = (10, 20)
+>>> c = (0, 10)
+>>> d = (30, 10)
+>>> intersect(a, b, c, d)
+True
+```
+False example:
+```
+>>> a = (0, 0)
+>>> b = (0, 10)
+>>> c = (10, 10)
+>>> d = (30, 30)
+>>> intersect(a, b, c, d)
+False
+```
