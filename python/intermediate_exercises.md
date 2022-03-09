@@ -92,7 +92,7 @@ False
 >>> is_palindrome('bob')
 True
 
->>> is_palindrome('A man, a plan, a canal, panama')
+>>> is_palindrome('a man a plan a canal panama')
 True
 ```
 
