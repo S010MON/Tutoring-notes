@@ -58,7 +58,7 @@ Create a function that takes in two points as tuples and returns the ![euclidean
 
 Function definition should take the form:
 ```python
-def dist(point_1, point_2) -> double:
+def dist(point_1: tuple, point_2: tuple) -> float:
     # Your code here
 ```
 
@@ -68,7 +68,7 @@ Example output for the function:
 >>> point_1 = (0, 10)
 >>> point_2 = (0, 20)
 >>> dist(point_1, point_2)
-10
+10.0
 ```
 Or for a more complex example
 ```
@@ -112,7 +112,7 @@ Symbol | Value
 ```
 And example function definition:
 ```python
-def rom_to_dec(roman) -> int:
+def rom_to_dec(roman: str) -> int:
     # Your code here
 ```
 Assume that Roman Numerals are always in decending order for addition, (so VI = 5 + 1 = 5)  and in acending order for subtraction (so IV = 5 - 1 = 4) to make the numbers not included in the numerals list.
